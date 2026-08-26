@@ -1,39 +1,86 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>Meu mundo</h1>
-          Ola, vou dar dicas sobre estilos de musicas, sons 
-        <h2>Sejam bem-vindos!</h2>
-        <p>aqui irei compartilhar meus gostos muisicais e dicas sobre estilos de musicas</p>
-         <body>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Meu Gosto Musical</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* Reseta margens e define a fonte padrão */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #120919; /* Roxo muito escuro para o fundo */
+    color: #e0d6f6; /* Texto em tom lilás claro para contraste */
+}
 
-    <div>
-        <h1>Musicas e Estilos</h1>
-        <p>Um pouco sobre o que eu gosto de ouvir no dia a dia.</p>
-        
-        <img src="Gemini_Generated_Image_pfiph6pfiph6pfip" alt="Menina ouvindo música com fones">
-    </div>
+/* Estilo do Cabeçalho */
+.header {
+    background-color: #2a1147; /* Roxo escuro fechado */
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 4px solid #7b2cbf; /* Linha roxa viva */
+}
 
-    <div>
-        <h2>Meus Estilos Favoritos</h2>
-        <ul>
-            <li>Pop</li>
-            <li>Sertanejo</li>
+.header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
 
-    <div>
-    
-</html>
-</html>
+.header p {
+    font-size: 1.2rem;
+    color: #c77dff; /* Lilás claro */
+}
+
+/* Container do Conteúdo */
+.main-content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Cards para organização com <div> */
+.card {
+    background-color: #1e102e; /* Roxo médio */
+    border: 1px solid #3c1661;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card h1 {
+    color: #9d4edd; /* Roxo vibrante */
+    font-size: 1.8rem;
+    margin-top: 0;
+    border-bottom: 2px solid #3c1661;
+    padding-bottom: 8px;
+}
+
+.card p {
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+/* Estilização da Lista */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #2a1147;
+    margin: 10px 0;
+    padding: 12px 16px;
+    border-left: 5px solid #7b2cbf; /* Detalhe lateral em roxo destaque */
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Personalização dos Links <a> */
+.links-section a {
+    color: #c77dff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.links-section a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
