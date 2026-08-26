@@ -1,86 +1,53 @@
-/* Reseta margens e define a fonte padrão */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #120919; /* Roxo muito escuro para o fundo */
-    color: #e0d6f6; /* Texto em tom lilás claro para contraste */
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinfonia Urbana - Músicas e Estilos Musicais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-/* Estilo do Cabeçalho */
-.header {
-    background-color: #2a1147; /* Roxo escuro fechado */
-    padding: 40px 20px;
-    text-align: center;
-    border-bottom: 4px solid #7b2cbf; /* Linha roxa viva */
-}
+    <!-- Cabeçalho Principal -->
+    <div class="header">
+        <h1>Sinfonia Urbana: Estilos Musicais</h1>
+        <p>Explorando a diversidade dos ritmos, harmonias e emoções que movem o mundo.</p>
+    </div>
 
-.header h1 {
-    color: #ffffff;
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
+    <!-- Conteúdo Principal -->
+    <div class="main-content">
+        
+        <!-- Bloco de Introdução -->
+        <div class="card">
+            <h1>A Arte do Som</h1>
+            <p>A música é uma linguagem universal capaz de transmitir sentimentos e unir culturas. Cada estilo musical carrega uma identidade única, refletindo a história e os costumes da época em que foi criado.</p>
+        </div>
 
-.header p {
-    font-size: 1.2rem;
-    color: #c77dff; /* Lilás claro */
-}
+        <!-- Bloco de Lista de Estilos -->
+        <div class="card">
+            <h1>Gêneros e Suas Características</h1>
+            <p>Conheça alguns dos principais estilos musicais e o que os torna marcantes:</p>
+            <ul>
+                <li><strong>Rock & Roll:</strong> Marcado por guitarras elétricas, ritmo forte e espírito de rebeldia.</li>
+                <li><strong>Jazz:</strong> Focado na improvisação, síncope e harmonias sofisticadas.</li>
+                <li><strong>Hip-Hop:</strong> União de ritmo e poesia (RAP), refletindo a cultura urbana e social.</li>
+                <li><strong>MPB (Música Popular Brasileira):</strong> Riqueza poética e mistura de ritmos tradicionais do Brasil.</li>
+                <li><strong>Música Eletrônica:</strong> Criada com sintetizadores e batidas voltadas para a pista de dança.</li>
+                <li><strong>Lo-Fi & Chill:</strong> Batidas suaves e repetitivas, ideais para foco e relaxamento.</li>
+            </ul>
+        </div>
 
-/* Container do Conteúdo */
-.main-content {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 0 20px;
-}
+        <!-- Bloco de Links de Recomendação -->
+        <div class="card links-section">
+            <h1>Explore Mais</h1>
+            <p>Aprofunde seus conhecimentos sobre a história e o impacto da música:</p>
+            <ul>
+                <li><a href="https://pt.wikipedia.org/wiki/G%C3%AAnero_musical" target="_blank">Guia Completo de Gêneros Musicais</a></li>
+                <li><a href="https://spotify.com" target="_blank">Ouvir Playlists Temáticas no Spotify</a></li>
+            </ul>
+        </div>
 
-/* Cards para organização com <div> */
-.card {
-    background-color: #1e102e; /* Roxo médio */
-    border: 1px solid #3c1661;
-    border-radius: 12px;
-    padding: 25px;
-    margin-bottom: 25px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-}
+    </div>
 
-.card h1 {
-    color: #9d4edd; /* Roxo vibrante */
-    font-size: 1.8rem;
-    margin-top: 0;
-    border-bottom: 2px solid #3c1661;
-    padding-bottom: 8px;
-}
-
-.card p {
-    line-height: 1.6;
-    font-size: 1.05rem;
-}
-
-/* Estilização da Lista */
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-li {
-    background-color: #2a1147;
-    margin: 10px 0;
-    padding: 12px 16px;
-    border-left: 5px solid #7b2cbf; /* Detalhe lateral em roxo destaque */
-    border-radius: 4px;
-    font-size: 1rem;
-}
-
-/* Personalização dos Links <a> */
-.links-section a {
-    color: #c77dff;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    transition: color 0.3s ease;
-}
-
-.links-section a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
+</body>
+</html>
