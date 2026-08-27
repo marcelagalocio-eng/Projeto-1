@@ -3,83 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Músicas e Estilos Musicais</title>
+    <title>Ritmos & Acordes | O Universo da Música</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Cabeçalho Principal -->
-    <header class="header">
-        <h1>Estilos Musicais</h1>
-        <p>Explorando a diversidade dos ritmos e emoções que movem o mundo.</p>
-    </header>
+    <div class="header-section">
+        <h1>Ritmos & Acordes: A Magia da Música</h1>
+        <p>Explore a diversidade dos ritmos que movem sentimentos e marcam gerações pelo mundo.</p>
+    </div>
 
-    <!-- Conteúdo Principal -->
-     background-color: pink
-    <main class="main-content">
-        
-        <!-- Bloco de Introdução -->
-        <section class="card">
-            <h2>A Arte do Som</h2>
-            <p>A música é uma linguagem universal capaz de transmitir sentimentos e unir culturas. Cada estilo musical carrega uma identidade única, refletindo a história e os costumes da época em que foi criado.</p>
-        </section>
+    <div class="main-content">
+        <h1>Estilos Musicais em Destaque</h1>
+        <p>Cada gênero musical carrega uma história única, instrumentos característicos e uma identidade cultural própria. Veja alguns dos mais influentes:</p>
 
-        <!-- Bloco de Lista de Estilos -->
-        <section class="card">
-            <h2>Gêneros e Suas Características</h2>
-            <p>Conheça alguns dos principais estilos musicais e o que os torna marcantes:</p>
-            <ul>
-                <li><strong>Rock &amp; Roll:</strong> Marcado por guitarras elétricas, ritmo forte e espírito de rebeldia.</li>
-                <li><strong>Jazz:</strong> Focado na improvisação, síncope e harmonias sofisticadas.</li>
-                <li><strong>Hip-Hop:</strong> União de ritmo e poesia (RAP), refletindo a cultura urbana e social.</li>
-                <li><strong>MPB (Música Popular Brasileira):</strong> Riqueza poética e mistura de ritmos tradicionais do Brasil.</li>
-                <li><strong>Música Eletrônica:</strong> Criada com sintetizadores e batidas voltadas para a pista de dança.</li>
-                <li><strong>Lo-Fi &amp; Chill:</strong> Batidas suaves e repetitivas, ideais para foco e relaxamento.</li>
-            </ul>
-        </section>
+        <ul class="music-list">
+            <li>
+                <div class="card-genre">
+                    <h1>Rock 'n' Roll</h1>
+                    <p>Surgido nos anos 1950, destaca-se pelo uso marcante de guitarras elétricas, baixo e bateria. Representa atitude, liberdade e energia.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-genre">
+                    <h1>Jazz</h1>
+                    <p>Nascido em Nova Orleans, é famoso pela forte presença do improviso, ritmo sincopado e o som marcante de instrumentos de sopro e piano.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-genre">
+                    <h1>MPB (Música Popular Brasileira)</h1>
+                    <p>Mistura de ritmos tradicionais brasileiros com influências do pop e jazz. Destaca-se pelas letras poéticas e arranjos ricos.</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-genre">
+                    <h1>Música Eletrônica</h1>
+                    <p>Criada com sintetizadores, sequenciadores e computadores. Domina as pistas de dança globais com batidas envolventes.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
 
-        <!-- Bloco de Links de Recomendação -->
-        <section class="card links-section">
-            <h2>Explore Mais</h2>
-            <p>Aprofunde seus conhecimentos sobre a história e o impacto da música:</p>
-            <nav aria-label="Links de recomendação">
-                <ul>
-                    <li><a href="https://pt.wikipedia.org/wiki/G%C3%AAnero_musical" target="_blank" rel="noopener noreferrer">Guia Completo de Gêneros Musicais (abre em nova aba)</a></li>
-                    <li><a href="https://spotify.com" target="_blank" rel="noopener noreferrer">Ouvir Playlists Temáticas no Spotify (abre em nova aba)</a></li>
-                </ul>
-            </nav>
-        </section>
-
-    </main>
-    header {
-    background-color: #183C63;
-    color: #FFFFFF;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 16px;
-}
-
-main {
-    background-color: #FFFFFF;
-    color: #183C63;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 16px;
-}
-
-article {
-    display: flex;
-}
-
-img {
-    width: 80px;
-    height: 80px;
-}
-
-.artigo-autor {
-    font-weight: bold;
-}
+    <div class="footer-section">
+        <p>Quer aprofundar seus conhecimentos musicais?</p>
+        <p>
+            Visite a 
+            <a href="https://pt.wikipedia.org/wiki/M%C3%BAsica" target="_blank">História da Música na Wikipédia</a> 
+            ou escute seleções no 
+            <a href="https://open.spotify.com" target="_blank">Spotify</a>.
+        </p>
+    </div>
 
 </body>
 </html>
+/* Reset básico e estilização global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121214;
+    color: #e1e1e6;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilização do Cabeçalho */
+.header-section {
+    background: linear-gradient(135deg, #8257e5, #202024);
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid #323238;
+}
+
+.header-section h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.header-section p {
+    font-size: 1.1rem;
+    color: #c4c4cc;
+}
+
+/* Estilização do Conteúdo Principal */
+.main-content {
+    background-color: #202024;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.main-content h1 {
+    color: #04d361;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #323238;
+    padding-bottom: 8px;
+}
+
+.main-content p {
+    color: #a8a8b3;
+    margin-bottom: 20px;
+}
+
+/* Estilização da Lista e Cards */
+.music-list {
+    list-style: none;
+}
+
+.music-list li {
+    margin-bottom: 15px;
+}
+
+.card-genre {
+    background-color: #29292e;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #8257e5;
+}
+
+.card-genre h1 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    border-bottom: none;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+.card-genre p {
+    color: #c4c4cc;
+    margin-bottom: 0;
+}
+
+/* Estilização dos Links e Rodapé */
+.footer-section {
+    text-align: center;
+    background-color: #202024;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.footer-section p {
+    color: #a8a8b3;
+}
+
+a {
+    color: #04d361;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00b37e;
+}
